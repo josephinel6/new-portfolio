@@ -1,0 +1,55 @@
+.accomplishments-card {
+    background-color: transparent;
+    width: 20vw;
+    height: 30vh;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px;
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    /* box-shadow: 1px 1px black; */
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.accomplishments-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    border-radius: 2em;
+}
+
+.card-back {
+    color: var(--text-color);
+    border-radius: 2em;
+    transform: rotateY(180deg);
+    background-color: var(--button-color);
+}
+
+p {
+    margin-top: -2vh;
+}
