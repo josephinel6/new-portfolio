@@ -1,14 +1,38 @@
+.page-block {
+    /* border: 1px solid #f1f1f1; */
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: black; */
+}
+
+.block-two {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 99%;
+    margin-top: 1%;
+}
+
 .accomplishments-card {
     background-color: transparent;
-    width: 20vw;
+    width: 19%;
+    /* background-color: var(--color-third-bg); */
     height: 30vh;
-    /* border: 1px solid #f1f1f1; */
     perspective: 1000px;
+    border-radius: 2.5em;
+    /* margin: 0.5%; */
+    float: left;
+    margin: 0.5%;
+    /* margin-top: 1%; */
+    margin-top: 0.5%;
+    margin-bottom: 0;
+    display: inline-block;
 }
 
 .card-img {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
+    padding: 10%;
     object-fit: contain;
     border-radius: 2em;
     border-style: solid;
@@ -47,9 +71,15 @@
     color: var(--text-color);
     border-radius: 2em;
     transform: rotateY(180deg);
-    background-color: var(--button-color);
+    background-color: var(--color-third-bg);
 }
 
-p {
+.card-header {
+    width: 80%;
+    margin-left: 10%;
+    overflow-wrap: normal;
+}
+
+.card-desc {
     margin-top: -2vh;
 }

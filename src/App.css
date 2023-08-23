@@ -11,6 +11,8 @@
   --color-menu-hover: rgb(113, 113, 113);
   --text-color: black;
   --button-color: lightgrey;
+  --color-secondary-bg: rgb(244, 244, 244);
+  --color-third-bg: lightgrey;
 }
 
 [data-theme="dark"] {
