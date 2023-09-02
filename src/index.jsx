@@ -5,7 +5,7 @@ export default function IndexPage() {
         <div className="page-block">
             <div id="top-block">
                 <div id="top-left">
-                    <img id="profile-img" src="./src/assets/profile.jpg" />
+                    <img id="profile-img" src="/assets/profile.jpg" />
                     <div id="intro-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Risus at ultrices mi tempus imperdiet. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. </div>
                 </div>
                 <div id="vertical-line" />
