@@ -1,8 +1,11 @@
+import { useEffect } from "react";
 import "./indexpage.css"
 
 export default function IndexPage() {
+
     return (
         <div className="page-block">
+            <div id="mobile-page-alert"> Please open in desktop for best view! </div>
             <div id="top-block">
                 <div id="top-left">
                     <img id="profile-img" src="/assets/profile.jpg" />
@@ -14,7 +17,7 @@ export default function IndexPage() {
                 </div>
             </div>
             <div id="projects-block">
-                <h3 id="projects-heading"> Some of my projects: </h3>
+                <h3 id="projects-heading" onClick={() => alert("Nothing here yet--check back soon!")}> Some of my projects: </h3>
                 <button id="view-more-projects"> View More </button>
                 <div id="projects-list">
                     Nothing yet to see here. Visit <a href="https://josephinel6.github.io/projects" >https://josephinel6.github.io/projects</a> (also broken) for more.

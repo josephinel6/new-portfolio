@@ -1,6 +1,11 @@
 import './activities.css'
 
 export default function ActivitiesPage() {
+
+    function setUpEmail() {
+        location.href = 'mailto:mailjosephinel@gmail.com?subject=Resume Request from Portfolio';
+    }
+
     return (
         <div className="page-block" id="activities-page">
             <h2 className="activities-header"> <b> — </b> robotics <h2 className='subtitle activities-header'> @ Exothermic Robotics </h2> </h2>
@@ -15,6 +20,7 @@ export default function ActivitiesPage() {
             <h2 className="activities-header"> <b> — </b> Girls Who Code <h2 className='subtitle activities-header'> @ Forest Ridge </h2></h2>
             <div className='date-tag past-tag'> 2021-2023 </div>
             <p className="activities-paragraph"> - founded and ran Forest Ridge School's first Girls Who Code club</p>
+            <button id="view-resume-button" onClick={() => setUpEmail()}> Get full resume </button>
         </div>
     )
 }

@@ -42,6 +42,8 @@
 #nav-bar-bottom {
     position: absolute;
     bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .nav-tab {
@@ -71,4 +73,16 @@
     width: 4vw;
     font-size: 1.1em;
     margin-left: 0.5vw;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    #navigation-bar {
+        width: 12vw;
+    }
+
+    .nav-tab {
+        font-size: 1.4em;
+    }
+
 }

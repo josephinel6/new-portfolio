@@ -47,3 +47,34 @@
 .activities-paragraph {
     padding-left: 2vw;
 }
+
+#view-resume-button {
+    margin-top: 3vh;
+    font-size: 0.9em;
+    background-color: rgb(239, 239, 239);
+}
+
+#view-resume-button:hover {
+    background-color: rgb(232, 232, 232);
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .activities-header {
+        font-size: 1em;
+    }
+
+    .activities-paragraph {
+        font-size: 0.85em;
+    }
+
+    .date-tag {
+        font-size: 0.5em;
+        margin-left: -9vw;
+    }
+
+    #view-resume-button {
+        font-size: 0.8em;
+        margin-top: 2vh;
+    }
+}

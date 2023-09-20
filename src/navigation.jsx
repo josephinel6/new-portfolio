@@ -13,6 +13,7 @@ import { faMoon } from '@fortawesome/free-regular-svg-icons'
 import { faTrophy } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 export default function Navigation() {
     const [navigateTo, setNavigateTo] = useState("");
@@ -53,7 +54,8 @@ export default function Navigation() {
                     <FontAwesomeIcon className="nav-tab" id="nav-tab-about" icon={faUser} onClick={() => location.href = "/about"} />
                 </div>
                 <div id="nav-bar-bottom">
-                    <FontAwesomeIcon className="nav-social" icon={faGithub} href="github.com" onClick={() => location.href = "https://www.github.com/josephinel6"} />
+                    <FontAwesomeIcon className="nav-social" id="nav-github" icon={faGithub} href="github.com" onClick={() => location.href = "https://www.github.com/josephinel6"} />
+                    <FontAwesomeIcon className="nav-social" icon={faEnvelope} href="mailto:mailjosephinel@gmail.com" onClick={() => location.href = "mailto:mailjosephinel@gmail.com"} />
                 </div>
             </div>
             <Outlet />
