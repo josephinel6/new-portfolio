@@ -41,17 +41,9 @@ export default function Navigation() {
         <div>
             <div id="navigation-bar">
                 <div id="nav-bar-icons">
-                    {/* <FontAwesomeIcon icon={faMoon} id="day-night-toggle" onClick={switchTheme} /> */}
-                    {/* <FontAwesomeIcon className="nav-tab" id="nav-tab-home" icon={faHouse} value="/" onClick={() => setNavigateTo(navigateTo)} />
-                    <FontAwesomeIcon className="nav-tab" id="nav-tab-projects" icon={faFolder} value="/projects" onClick={() => setNavigateTo(navigateTo)} />
-                    <FontAwesomeIcon className="nav-tab" id="nav-tab-activities" icon={faPencil} value="/activites" onClick={() => setNavigateTo(navigateTo)} />
-                    <FontAwesomeIcon className="nav-tab" id="nav-tab-accomplishments" icon={faTrophy} value="/accomplishments" onClick={() => setNavigateTo(navigateTo)} />
-                    <FontAwesomeIcon className="nav-tab" id="nav-tab-about" icon={faUser} value="/about" onClick={() => setNavigateTo(navigateTo)} /> */}
                     <FontAwesomeIcon className="nav-tab" id="nav-tab-home" icon={faHouse} value="/" onClick={() => location.href = "/"} />
                     <FontAwesomeIcon className="nav-tab" id="nav-tab-projects" icon={faFolder} onClick={() => location.href = "/projects"} />
-                    <FontAwesomeIcon className="nav-tab" id="nav-tab-activities" icon={faPencil} onClick={() => location.href = "/activities"} />
-                    <FontAwesomeIcon className="nav-tab" id="nav-tab-accomplishments" icon={faTrophy} onClick={() => location.href = "/accomplishments"} />
-                    <FontAwesomeIcon className="nav-tab" id="nav-tab-about" icon={faUser} onClick={() => location.href = "/about"} />
+                    <FontAwesomeIcon className="nav-tab" id="nav-tab-about" icon={faUser} onClick={() => location.href = "/contact"} />
                 </div>
                 <div id="nav-bar-bottom">
                     <FontAwesomeIcon className="nav-social" id="nav-github" icon={faGithub} href="github.com" onClick={() => location.href = "https://www.github.com/josephinel6"} />

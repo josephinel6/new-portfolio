@@ -151,13 +151,59 @@ button:focus-visible {
   display: inline-block;
 }
 
+.page-block {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  padding-top: 2vh;
+  width: 95vw;
+  margin-top: -2vh;
+  /* background-color: blue; */
+  border-style: none;
+  border-width: 5px;
+  border-color: black;
+  right: 0;
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1100px) {
+  #navigation-bar {
+    width: 8vw;
+  }
+
+  .page-block {
+    width: 92vw;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   #navigation-bar {
-      width: 12vw;
+    width: 10vw;
+  }
+
+  .page-block {
+    width: 90vw;
   }
 
   .nav-tab {
-      font-size: 1.4em;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navigation-bar {
+    width: 15vw;
   }
 
+  .nav-tab {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 1em;
+  }
+
+  .page-block {
+    width: 87vw;
+  }
 }

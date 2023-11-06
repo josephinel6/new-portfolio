@@ -15,13 +15,13 @@ export default function IndexPage() {
 
                 </div>
             </div>
-            <div id="projects-block">
+            {/* <div id="projects-block">
                 <h3 id="projects-heading" onClick={() => alert("Nothing here yet--check back soon!")}> Some of my projects: </h3>
                 <button id="view-more-projects"> View More </button>
                 <div id="projects-list">
                     Nothing yet to see here. Visit <a href="https://josephinel6.github.io/projects" >https://josephinel6.github.io/projects</a> (also broken) for more.
                 </div>
-            </div>
+            </div> */}
         </div >
     )
 
