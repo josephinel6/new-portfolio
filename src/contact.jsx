@@ -1,6 +1,6 @@
 import './contact.css'
 
-export default function ActivitiesPage() {
+export default function ContactPage () {
 
     function setUpEmail() {
         location.href = 'mailto:mailjosephinel@gmail.com?subject=Resume Request from Portfolio';

@@ -5,9 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import Navigation from './navigation'
 import IndexPage from './index'
 import ProjectsPage from './projects'
-import ActivitiesPage from './activities'
-import AccomplishmentsPage from './accomplishments'
-import AboutPage from './about'
+import ContactPage from './contact'
 
 function App() {
   return (

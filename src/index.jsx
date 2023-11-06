@@ -5,7 +5,6 @@ export default function IndexPage() {
 
     return (
         <div className="page-block">
-            <div id="mobile-page-alert"> Please open in desktop for best view! </div>
             <div id="top-block">
                 <div id="top-left">
                     <img id="profile-img" src="/assets/profile.jpg" />
