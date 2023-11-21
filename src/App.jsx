@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div id="card">
-        <img src="assets/profile.jpg" id="mainphoto" />
+        <img src="/assets/profile.jpg" id="mainphoto" />
         <h1 id="name"> Josephine</h1>
         <h3> High school sophomore</h3>
         <h3> WA </h3>
