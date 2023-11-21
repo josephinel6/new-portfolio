@@ -28,7 +28,8 @@
 #mainphoto {
   height: 15vh;
   width: 6vw;
-  margin-top: 5%;
+  margin-bottom: 1.5%;
+  /* margin-top: 5%; */
   object-fit: cover;
 }
 
