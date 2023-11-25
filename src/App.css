@@ -32,20 +32,33 @@
   object-fit: cover;
 }
 
-.social {
-  margin-top: 1%;
-  height: 3vh;
-  padding: 0.5vh;
-}
-
 .social:hover {
   cursor: pointer;
+}
+
+#github {
+  padding-left: 0;
 }
 
 @media screen and (max-width: 785px) {
   #mainphoto {
     width: 23vw;
   }
+
+  .social {
+    height: 4vh;
+    padding: 0.65vh;
+    margin-top: 1.75%;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  #name {
+    margin-bottom: 1%;
+  }
+
 }
 
 @media screen and (min-width:785px) {
@@ -56,5 +69,11 @@
 
   #mainphoto {
     width: 6vw;
+  }
+
+  .social {
+    margin-top: 1%;
+    height: 3vh;
+    padding: 0.5vh;
   }
 }

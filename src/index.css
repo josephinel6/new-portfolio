@@ -39,10 +39,21 @@ h1 {
 }
 
 h3 {
-  font-size: 1em;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: normal;
+}
+
+@media screen and (max-width:758px) {
+  h3 {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width:758px) {
+  h3 {
+    font-size: 1em;
+  }
 }
 
 button {
