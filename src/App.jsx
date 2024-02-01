@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faDiscord } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   const [count, setCount] = useState(0)
