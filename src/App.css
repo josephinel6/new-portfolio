@@ -9,13 +9,20 @@
 
 #card {
   height: 100vh;
-  width: 100vw;
+  width: 94vw;
   /* background-color: blue; */
   align-items: start;
   /* padding: 3%; */
-  padding-left: 3%;
+  padding-left: 3vw;
+  padding-right: 3vw;
   text-align: start;
   margin-top: 5%;
+}
+
+h2 {
+  font-size: 1.15em;
+  margin-bottom: 0.25%;
+  margin-top: 1.25%;
 }
 
 #name {
@@ -40,10 +47,31 @@
   padding-left: 0;
 }
 
+.post-title {
+  display: block;
+}
+
+.post-title:hover {
+  cursor: pointer;
+}
+
+.horizontal-line {
+  margin-top: 2.5vh;
+  margin-bottom: 2.75vh;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.award {
+  width: 18vw;
+}
+
+.award:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 785px) {
-  #mainphoto {
-    width: 23vw;
-  }
 
   .social {
     height: 4vh;
@@ -59,16 +87,16 @@
     margin-bottom: 1%;
   }
 
+  .award {
+    width: 55vw;
+  }
+
 }
 
 @media screen and (min-width:785px) {
   #card {
     width: 56vw;
     margin-left: 22vw;
-  }
-
-  #mainphoto {
-    width: 6vw;
   }
 
   .social {
