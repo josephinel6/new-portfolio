@@ -65,6 +65,14 @@ h2 {
 
 .award {
   width: 18vw;
+  max-height: 10vh;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 1vw;
+}
+
+#name-it {
+  width: 8vw;
 }
 
 .award:hover {
