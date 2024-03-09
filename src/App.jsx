@@ -27,7 +27,6 @@ function App() {
           <img class="award" href="https://www.aspirations.org/people/josephine-l/134641" src="/assets/ncwit.png"></img>
         </div> */}
 
-        <img className="award" id="name-it" onClick={() => location.href = "https://dash.hackpnw.org/projects/z1i6pjs9s1dcxz1p"} src="/assets/nameit.png"></img>
         <img className="award" onClick={() => location.href = "https://www.aspirations.org/people/josephine-l/134641"} src="/assets/ncwit.png"></img>
 
         <div id="posts">
