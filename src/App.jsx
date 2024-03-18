@@ -35,7 +35,6 @@ function App() {
           <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Preventing-Integral-Windup/"}> Post: Preventing Integral Windup </a>
           <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Slew-Rate-Control/"}> Post: Slew Rate Control </a>
           <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Basic-Motion-Profiling/"}> Post: Basic Motion Profiling </a>
-          <a className="post-title" onClick={() => location.href = "https://github.com/josephinel6/translate-extension"}> Project: Translator Extension </a>
         </div>
       </div>
     </>
