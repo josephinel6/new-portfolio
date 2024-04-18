@@ -31,10 +31,10 @@ function App() {
 
         <div id="posts">
           <h2> My Work </h2>
-          <a className="post-title" onClick={() => location.href = "https://github.com/josephinel6/Hack-PNW-Spring-24/tree/main"}> Project: Name It (Hack PNW Spring 2024) </a>
-          <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Preventing-Integral-Windup/"}> Post: Preventing Integral Windup </a>
-          <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Slew-Rate-Control/"}> Post: Slew Rate Control </a>
-          <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Basic-Motion-Profiling/"}> Post: Basic Motion Profiling </a>
+          <a className="post-title" onClick={() => location.href = "https://github.com/josephinel6/Hack-PNW-Spring-24/tree/main"}> Name It (Hack PNW Spring 2024) </a>
+          <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Preventing-Integral-Windup/"}> Preventing Integral Windup </a>
+          <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Slew-Rate-Control/"}> Slew Rate Control </a>
+          <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Basic-Motion-Profiling/"}> Basic Motion Profiling </a>
         </div>
       </div>
     </>
