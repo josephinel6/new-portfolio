@@ -31,6 +31,7 @@ function App() {
 
         <div id="posts">
           <h2> My Work </h2>
+                    <a className="post-title" onClick={() => location.href = "https://devpost.com/software/medinet-r5shm6"}> MediNet (BCHacks 2024--Track Winner) </a>
           <a className="post-title" onClick={() => location.href = "https://github.com/josephinel6/Hack-PNW-Spring-24/tree/main"}> Name It (Hack PNW Spring 2024) </a>
           <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Preventing-Integral-Windup/"}> Preventing Integral Windup </a>
           <a className="post-title" onClick={() => location.href = "https://orange-depot.github.io/posts/Slew-Rate-Control/"}> Slew Rate Control </a>
