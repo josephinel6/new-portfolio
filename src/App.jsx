@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faDiscord } from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <FontAwesomeIcon className="social" id="github" icon={faGithub} onClick={() => location.href = "https://www.github.com/josephinel6"} />
         <FontAwesomeIcon className="social" icon={faEnvelope} href="mailto:mailjosephinel@gmail.com" onClick={() => location.href = "mailto:mailjosephinel@gmail.com"} />
         <FontAwesomeIcon className="social" icon={faDiscord} onClick={() => location.href = "https://discordapp.com/users/886433195904602112"} />
+        <FontAwesomeIcon className="social" icon={faLinkedin} onClick={() => location.href = "https://www.linkedin.com/in/josephine-li-90ba02324/"} />
 
         <div className="horizontal-line"></div>
 
